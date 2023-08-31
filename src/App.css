@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  text-align: center;
+  align-items: center;
+  background-color: #549ee4;
+}
+
+
+.tools {
+  width: 100%;
+  height: 6em;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5%;
+}
+
+.brushes {
+  background-color: #f3ffbd;
+  width: 20%;
+  height: 100%;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+main {
+  clear: both;
+}
+
+table {
+  background-color: #808080;
+  width: 80%;
+  margin: 0 auto;
+}
+
+tr {
+  border: black;
+}
+
+td {
+  background-color: #f0f8ff;
+  position: relative;
+}
+
+td:hover {
+  background-color: #8f8f8f;
+  transition: all 0.4s ease;
+}
+
+td.selected {
+  background-color: #666666;
+  transition: all 0.4s ease;
+}
+
+.size {
+  background-color: #f3ffbd;
+  width: 20%;
+  height: 6em;
+  border-radius: 10px;
+}
+
+input[type="range"] {
+  width: 75%;
+}
+
+.shapes {
+  background-color: #f3ffbd;
+  width: 20%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+
+.dButton {
+  background-color: #f3ffbd;
+  width: 100%;
+  margin-top: 25%;
+  font-family: Poppins;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownShapes {
+  display: none;
+  position: absolute;
+  background-color: #f0f8ff;
+  z-index: 1;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.dropdownShapes a {
+  color: black;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdownShapes a:hover {
+  background-color: #8f8f8f;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+
+.dropdown:hover .dropdownShapes {
+  display: block;
+}
+
+.dropdown:hover .dButton {
+  background-color: #d3e778;
+  transition: all 0.4s ease;
+}
+
+.colors {
+  background-color: #f3ffbd;
+  width: 20%;
+  height: 100%;
+  border-radius: 10px;
+  margin-right: 5%;
+}
+
+.canvas {
+  background-color: #ffffff;
+  width: 90%;
+  padding-bottom: 37%;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 2%;
+}
+
+.buttons
+{
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+input[type="button"] {
+  border: none;
+  outline: none;
+  padding: 1em;
+  background-color: #ee974f;
+  border: 1px solid #ee974f;
+  border-radius: 10px;
+  width: 30%;
+  font-family: Poppins;
+}
+
+input[type="button"]:hover {
+  color: #ffffff;
+  background-color: #ffba81;
+  transition: all 0.4s ease;
+}
